@@ -2,9 +2,9 @@ var assert = require('assert');
 var request = require('supertest');
 var app = require('../fixtures/fixture-app.js');
 
-exports.it_should_list_lists = function(done){
+exports.it_should_list_list_items = function(done){
   request(app)
-  .get('/lists')
+  .get('/lists/1a/items')
   .set('x-sp-session', '1a')
   .expect(200)
   .end(function(err, res){
@@ -14,9 +14,9 @@ exports.it_should_list_lists = function(done){
   });
 };
 
-exports.it_should_create_lists = function(done){
+exports.it_should_create_list_items = function(done){
   request(app)
-  .post('/lists')
+  .post('/lists/1a/items')
   .send({title : 'foo', description : 'bar'})
   .set('x-sp-session', '1a')
   .expect(200)
@@ -29,7 +29,7 @@ exports.it_should_create_lists = function(done){
 
 exports.it_should_delete_lists = function(done){
   request(app)
-  .del('/lists/1a')
+  .del('/lists/1a/items/1b')
   .set('x-sp-session', '1a')
   .expect(200)
   .end(function(err, res){

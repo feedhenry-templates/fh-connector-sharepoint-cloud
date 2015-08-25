@@ -28,7 +28,6 @@ app.use(mbaasExpress.fhmiddleware());
 app.use('/login', require('./lib/login.js')());
 app.use('/lists', require('./lib/lists.js')());
 app.use('/lists', require('./lib/listitems.js')());
-app.use('/lists', require('./lib/listfields.js')());
 // fhlint-end
 
 // Important that this is last!
