@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "dependencies": {
     "express": "4.0.0",
-    "fh-mbaas-api" : "^5.0.0",
+    "fh-mbaas-api": "^5.0.0",
     "body-parser": "~1.0.2",
     "cors": "~2.2.0",
     "node-uuid": "^1.4.3",
@@ -17,6 +17,7 @@
     "grunt-fh-build": "~0.0.8",
     "jshint": "^2.7.0",
     "mocha": "^2.2.4",
+    "protagonist": "^0.20.1",
     "proxyquire": "^1.7.1",
     "supertest": "^1.0.1"
   },
