@@ -8,7 +8,7 @@ Sharepoint Connector. For more information on the underlying module in use, and 
 When setting up this connector, you were presented with a number of environment variables to fill in. These are documented in greater detail here.
 Required Environment Variables:  
 __SHAREPOINT\_HOSTNAME:__ Sharepoint URL  
-__SHAREPOINT\_AUTH\_TYPE:__ Type of authentication in use, valid values: `basic`, `ntlm`  
+__SHAREPOINT\_AUTH\_TYPE:__ Type of authentication in use, valid values: `basic`, `ntlm`, `online`  
 
 Optional Environment Variables:  
 __SHAREPOINT\_USERNAME:__ Service account username to use for authenticating all requests  
