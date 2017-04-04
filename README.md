@@ -1,6 +1,7 @@
 FORMAT: 1A
 
 # FeedHenry Sharepoint Connector
+[![Dependency Status](https://img.shields.io/david/feedhenry-templates/fh-connector-sharepoint-cloud.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/fh-connector-sharepoint-cloud)
 
 Sharepoint Connector. For more information on the underlying module in use, and info on Sharepoint itself see [here](https://github.com/cianclarke/sharepointer).
 
